@@ -1,0 +1,10 @@
+name: DreamZonLobby
+main: be.alexandre01.dreamzon.lobby.Main
+version: 1.0
+author: Alexandre01
+commands:
+  skin:
+  spawn:
+    aliases: [hub,lobby]
+  setspawn:
+  blockcmd:

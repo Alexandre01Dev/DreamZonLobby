@@ -1,0 +1,34 @@
+package be.alexandre01.dreamzon.lobby.data;
+
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
+
+public class SkinsDataBase {
+    public static String VillagerText(){
+        return "eyJ0aW1lc3RhbXAiOjE1NzY2OTcwNDQ2NTMsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRiMTZjNzVmOGNmYTViZjY2YmNkNWViYmNlZmZmMzQzY2M0ODhlYzdjYzgwNzkxYzAzNGE3MWMwMDg1YWRjMmYifX19";
+    }
+    public static String VillagerSignature(){
+       return "Y4lETwUOGS4kUEEkSckrD/c32SBrfguz7rfG73nTFyrqKH+tHG7lWge9fUlfpzBa3O5mH4CXIb1gHHd2Xu+Xkwt+7aYIKpydU9ywSjYsW4NcokirOZ+a+IByGTolGKiGHDrfazYEJe+YqtDGtNV/2WcEtQIra9KdtL8sn7+JQ9iWdzVR5yhQXc4zaKmkszuFGCGYnLlWhMPL8Dhv6zcn91b+Kl6tu7Ec17GkODZj345mK6PYne2H9P0cUjsRa/ON4IhYmYIovUkfGUekj9UnnLjpYbvKNDReBWfrpqk0xmg5pMLRNnaHTtGod33AqDL5CGwmQQK6gQSlVcAShJDgvWXpcx2gEFuRJP/DjP1x9KzP1CATaQuPOagoywC6ITkL/EGvNQr90Q9z7udW9nTPDsi1w4h5CVboooZsDPLZ+WixIkmh4iPnjZmMUXK1i4TGZEq9H1fGG+ZL0pdAvj6JCw0bCXCQ3HSnXzXmT7jwuomap/hr8XSyRSY5Sqk57SV1ezk3uoulpWE40ucxRWcTmGOyMre9DblKB5KGThbPmJnJSUzPkYekc09FPZRoj9vyfNznk2DwCnZFf9yJUkTqqJjzeqdQsSQnWWbtxYdpZemHvMx+XKDT+Z0hTSZ3gHBosW8/WEavbYbZEA03iC8yHR9RFRXnSPQ3FQn7bvIGPUk=";
+    }
+    public static String AngryVillagerText(){
+        return "eyJ0aW1lc3RhbXAiOjE1NzY2OTcwNjAzNTEsInByb2ZpbGVJZCI6ImQzMDQwY2FhNmNiMTRkNzZhNzI4NmNkMWJlYmQxZWE5IiwicHJvZmlsZU5hbWUiOiJQdXJpayIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU4ZTY0YmJiMmQ2Mjc1MTdhMDg0YzQzNmJjMTlmMzQ3NmU1MWVkZjRlZWQ5MWU3NGZmYzgzZWRiODFkNDgyZSJ9fX0=";
+    }
+    public static String AngryVillagerSignature(){
+        return "XjRzg4pHbeP9m1eANqJw139TUM+akFjfCjndbdTc3LnJJh9bocnTWHo19QaF2k6aWyEVh8Bsl7RWWlPwCUlsjAaJO5ROkE9vC30pPjVy0g+Xro4R3mRhqPbeU/H3s/3TJL9xH+gUVJNdsEQB6xOZSbwpPcXHPrsBshBfMIV5iiey3ZB/STLAlejxByrWohTllS1wiY2K1ImYt4AlLscJI4EzPFTBolYhDwVCIIH485U95qoL6M9WQcdASa01/DGnjYpSxwuG4oOfKvzsL66CLbEmoDMnOG7CmXMIcyFF3azsB6FHMNssg0p/T2ghES2BcXd9rGP7BdFC3ECKVq2c29DtsFPuoCedJtOoG2sNetwqoil7QqeUEafq6RaGwsx0W0AAnkYuItishkM1b5eCZV6tEuK4lAe4d3hd0vmGToyUPMI25fcjhqYAYjaWAGE8/IXmIC/JhkP9cI6p9zAGzDXgsYJ+8nNVQ6x16qG/kw2LmuB7oSGRBWnJawr71hH5q8IMDWjN3QSHlTpURT2TBoYL4VkOslLZsCzcHikqivsB9FzkrIEikSzOx7N8lOxKluVywSpV0UcWblWhxVOml+EEtUFiFyCiNJnixkEPV6uWhh2rTb/aaD7qg41ciCAlTbfzNaLldis5Z6Jby0cpCsjhIWtzMPKPnsNsnNTzMqs=";
+    }
+   public static String VillagerUUID(){
+        return "7dad2a13-40e8-4254-a78f-a9d8b0feb750";
+   }
+   public static Location VillagerLocation(){
+        return new Location(Bukkit.getWorld("LobbyWorld"),211 ,79 ,1605.280,-179.2f,2f);
+   }
+    public static String getQuest1Text(){
+        return "eyJ0aW1lc3RhbXAiOjE1NjMzNTQxMTQ0MTEsInByb2ZpbGVJZCI6ImIwZDRiMjhiYzFkNzQ4ODlhZjBlODY2MWNlZTk2YWFiIiwicHJvZmlsZU5hbWUiOiJ4RmFpaUxlUiIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk0MzJmNTQ0MTQ0Y2QxZjlkMmJlOTQwOTYyODkwNzBkMDNjMTcwNWIxZThkZTIzMmNjODUzNjNhNzQwM2E4ZCJ9fX0=";
+    }
+    public static String getQuest1Sign(){
+       return "cixG9gkHO+05dLJ2GvjrElMgfWXiHSuPiTrPb28sr6YAgusqznwOULXbxdQMb4zUoQp8MLzWs3PEeb7o7Fi9T2mVxEuQHFPtDS013bvHMIZQEAwHPUWEahBuIozsqr03ViV7I3aPFM6j55/99jTj28Fi4aAw6roJCrQBudPyj3tGmOUNOpIx3Cn6+Y9OlLBtfv4D3bao1JuZf9JyI8njW52W/BmxvB0e9/v+j62lq4m0kiuaorx7GJOlogmOXznhOWjl95L0P796AYOwS94ihd3+CkqG63kvVK3lqrzAD3dRY9n3J3paRs/2jyFORocbOgnXWDiJgwFCQBK7aBw977NmH7HO9Itt2+XchwvEUDEvlSTcy5m+AK2W21Aa0xked37d2rt1COcNhMhrJB2amvkojbyeXKli7CIBANt0gk1VT4q3eYyCsDlTGYCqtquz8h9eQndA1LuQbtSgccTxY7wrxQN2j8UO+VPz8vYXeVLT0v6B2rPTPyhS6ybIRtZnSVRufXP1+8FPLYhlZ9XD1yDqBxB43jSR34B1hAsnmOjuTUV/b4vmIBItj6EcpZU2v1MwMWClClede+uYrkvddmigesttoxH6sH20K7ek8QD3Pje0WkbZQ16HgBp6TpafD6KCjQnlJEE9KLdHTEchoJDpo8gQC9cqpbT+RAMTDE4=";
+    }
+    public static Location getQuest1Loc(){
+        return new Location(Bukkit.getWorld("LobbyWorld"),227.734 , 74 , 1598, -124.5f,11.4f);
+    }
+}

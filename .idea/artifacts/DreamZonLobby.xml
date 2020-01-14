@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DreamZonLobby">
+    <output-path>$PROJECT_DIR$/out/artifacts/DreamZonLobby</output-path>
+    <root id="archive" name="DreamZonLobby.jar">
+      <element id="module-output" name="BackupDreamZonLobby" />
+    </root>
+  </artifact>
+</component>
