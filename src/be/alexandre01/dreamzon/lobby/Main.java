@@ -128,6 +128,7 @@ public class Main extends JavaPlugin {
         getCommand("skin").setExecutor(new SkinCommand());
         getCommand("spawn").setExecutor(new SpawnCommand());
         getCommand("setspawn").setExecutor(new SpawnCommand());
+        getCommand("blabla").setExecutor(new SpawnCommand());
        /* getCommand("setspawn").setExecutor(new Spawn());
         Bukkit.getPluginManager().registerEvents(new ProtectPlayer(),this);*/
         if (getPlayersSkinConfig().contains("skins")){
